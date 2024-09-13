@@ -4,6 +4,7 @@
   --color-gray: #cccccc;
   --color-dark: #1e1e1e;
   --color-dark-2: #131313;
+  --color-dark-3: #343434;
 }
 
 body {
@@ -28,7 +29,7 @@ blockquote {
 .content-section {
   width: 360px;
   box-sizing: border-box;
-  margin: auto;
+  /* margin: auto; */
   height: 100px;
 }
 
@@ -42,8 +43,8 @@ blockquote {
 .header {
   padding: 24px 20px;
   display: flex;
-
   justify-content: space-between;
+  height: fit-content;
 }
 
 .header__logo {
@@ -55,7 +56,7 @@ blockquote {
 }
 
 .header__menu {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header__menu-list {
@@ -79,11 +80,14 @@ blockquote {
 }
 
 .cover {
-  padding: 7px 0 10px 20px;
+  padding: 7px 24px 16px 20px;
   height: fit-content;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 10px 20px 30px 40px;
+  line-height: 1;
+  background-position-x: 15px;
+  background-position-y: bottom;
 }
 
 .cover__title {
@@ -92,23 +96,25 @@ blockquote {
 .accent-span {
   display: block;
   color: white;
-  font-family: 'EB Garamond', Georgia, Times, 'Times New Roman', serif;
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
   font-size: 72px;
   font-weight: 400;
 }
 .accent-span_color-dark {
   display: block;
   color: var(--color-dark-2);
-  font-family: 'EB Garamond', Georgia, Times, 'Times New Roman', serif;
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
   font-size: 28px;
   font-weight: 700;
+  line-height: 1.15;
 }
 .accent-span_color-light {
   display: block;
   color: var(--color-light);
-  font-family: 'EB Garamond', Georgia, Times, 'Times New Roman', serif;
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
   font-size: 28px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .text-center {
@@ -120,9 +126,9 @@ blockquote {
 }
 
 .intro {
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   height: fit-content;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .intro__heading {
@@ -147,6 +153,7 @@ blockquote {
   flex-direction: column;
   gap: 24px;
   font-weight: 400;
+  line-height: 1.35;
 }
 
 .reasons {
@@ -159,20 +166,22 @@ blockquote {
 }
 
 .content-section__introduction {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
-  padding: 20px;
+  padding: 12px 20px 18px 20px;
+  line-height: 1.36;
 }
 
 .content-section__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 20px 20px 20px 36px;
+  padding: 10px 20px 20px 36px;
+  line-height: 1.35;
 }
 
 .content-section__list-item {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .content-section__list-accent {
@@ -182,6 +191,63 @@ blockquote {
 .how-to {
   height: fit-content;
   color: var(--color-light);
+  padding: 18px 0 56px;
+}
+.cards-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 14px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  margin-inline: 20px;
+}
+
+.card_theme_dark {
+  background-color: var(--color-dark-3);
+  color: var(--color-light);
+}
+
+.card_theme_bright {
+  background-color: var(--color-bright);
+  color: var(--color-dark-2);
+}
+
+.card__author {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.card__author-name {
+  font-family: "Inter", sans-serif;
+  font-family: 700;
+}
+
+.card__content {
+}
+
+.card__title {
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  line-height: 1.35;
+}
+
+.card__text {
+  font-family: "Inter", sans-serif;
+  line-height: 1.35;
 }
 
 .footer {
@@ -189,8 +255,9 @@ blockquote {
   justify-content: space-between;
   color: var(--color-light);
   padding: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border-top: 1px solid var(--color-bright);
+  height: fit-content;
 }
 .footer__menu-list {
   display: flex;
