@@ -29,7 +29,7 @@ blockquote {
 .content-section {
   width: 360px;
   box-sizing: border-box;
-  /* margin: auto; */
+  margin: auto;
   height: 100px;
 }
 
@@ -71,10 +71,7 @@ blockquote {
   color: var(--color-light);
   border-bottom: 1px solid var(--color-light);
 }
-
-.header__menu-item {
-}
-
+ 
 .header__menu-item_active {
   border: 0;
 }
@@ -88,9 +85,6 @@ blockquote {
   line-height: 1;
   background-position-x: 15px;
   background-position-y: bottom;
-}
-
-.cover__title {
 }
 
 .accent-span {
@@ -233,9 +227,6 @@ blockquote {
   font-family: 700;
 }
 
-.card__content {
-}
-
 .card__title {
   font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
@@ -263,8 +254,6 @@ blockquote {
   display: flex;
   gap: 16px;
   list-style-type: none;
-}
-.footer__menu-item {
 }
 .footer__menu-link {
   text-decoration: none;
