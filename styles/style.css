@@ -71,7 +71,7 @@ blockquote {
   color: var(--color-light);
   border-bottom: 1px solid var(--color-light);
 }
- 
+
 .header__menu-item_active {
   border: 0;
 }
@@ -90,14 +90,14 @@ blockquote {
 .accent-span {
   display: block;
   color: white;
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+  font-family: "EB Garamond", serif;
   font-size: 72px;
   font-weight: 400;
 }
 .accent-span_color-dark {
   display: block;
   color: var(--color-dark-2);
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+  font-family: "EB Garamond", serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.15;
@@ -105,7 +105,7 @@ blockquote {
 .accent-span_color-light {
   display: block;
   color: var(--color-light);
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+  font-family: "EB Garamond", serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
@@ -224,11 +224,11 @@ blockquote {
 
 .card__author-name {
   font-family: "Inter", sans-serif;
-  font-family: 700;
+  font-weight: 700;
 }
 
 .card__title {
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+  font-family: "EB Garamond", serif;
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 8px;
