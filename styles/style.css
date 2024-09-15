@@ -29,7 +29,7 @@ blockquote {
 .content-section {
   width: 360px;
   box-sizing: border-box;
-  margin: auto;
+  /* margin: auto; */
   height: 100px;
 }
 
@@ -81,10 +81,8 @@ blockquote {
   height: fit-content;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-position: 10px 20px 30px 40px;
   line-height: 1;
-  background-position-x: 15px;
-  background-position-y: bottom;
+  background-position: 15px bottom;
 }
 
 .accent-span {
@@ -97,18 +95,10 @@ blockquote {
 .accent-span_color-dark {
   display: block;
   color: var(--color-dark-2);
-  font-family: "EB Garamond", serif;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.15;
 }
 .accent-span_color-light {
   display: block;
   color: var(--color-light);
-  font-family: "EB Garamond", serif;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.2;
 }
 
 .text-center {
@@ -157,12 +147,16 @@ blockquote {
 
 .content-section__subtitle {
   padding: 20px;
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .content-section__introduction {
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  padding: 12px 20px 18px 20px;
+  padding: 10px 20px 18px 20px;
   line-height: 1.36;
 }
 
@@ -170,7 +164,7 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 10px 20px 20px 36px;
+  padding: 12px 20px 20px 36px;
   line-height: 1.35;
 }
 
@@ -185,14 +179,14 @@ blockquote {
 .how-to {
   height: fit-content;
   color: var(--color-light);
-  padding: 18px 0 56px;
+  padding: 18px 0 59px;
 }
 .cards-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin-top: 14px;
+  gap: 32px;
+  margin-top: 11px;
 }
 
 .card {
@@ -220,6 +214,7 @@ blockquote {
   width: 100px;
   height: 100px;
   margin-bottom: 8px;
+  border-radius: 50%;
 }
 
 .card__author-name {
@@ -239,6 +234,7 @@ blockquote {
 .card__text {
   font-family: "Inter", sans-serif;
   line-height: 1.35;
+  letter-spacing: 0.05px;
 }
 
 .footer {
@@ -258,4 +254,5 @@ blockquote {
 .footer__menu-link {
   text-decoration: none;
   color: var(--color-light);
+  font-size: 14px;
 }
