@@ -29,7 +29,7 @@ blockquote {
 .content-section {
   width: 360px;
   box-sizing: border-box;
-  /* margin: auto; */
+  margin: auto;
   height: 100px;
 }
 
