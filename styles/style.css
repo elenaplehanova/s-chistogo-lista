@@ -30,7 +30,6 @@ blockquote {
   width: 360px;
   box-sizing: border-box;
   margin: auto;
-  height: 100px;
 }
 
 .content-section_theme_dark {
@@ -44,7 +43,6 @@ blockquote {
   padding: 24px 20px;
   display: flex;
   justify-content: space-between;
-  height: fit-content;
 }
 
 .header__logo {
@@ -78,7 +76,6 @@ blockquote {
 
 .cover {
   padding: 7px 24px 16px 20px;
-  height: fit-content;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   line-height: 1;
@@ -111,7 +108,6 @@ blockquote {
 
 .intro {
   padding: 20px 20px 40px 20px;
-  height: fit-content;
   font-family: "Inter", sans-serif;
 }
 
@@ -142,7 +138,6 @@ blockquote {
 
 .reasons {
   padding: 18px 0 20px;
-  height: fit-content;
 }
 
 .content-section__subtitle {
@@ -177,7 +172,6 @@ blockquote {
 }
 
 .how-to {
-  height: fit-content;
   color: var(--color-light);
   padding: 18px 0 59px;
 }
@@ -244,7 +238,6 @@ blockquote {
   padding: 20px;
   font-family: "Inter", sans-serif;
   border-top: 1px solid var(--color-bright);
-  height: fit-content;
 }
 .footer__menu-list {
   display: flex;
